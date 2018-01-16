@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f74776</color>
+    <color name="colorPrimaryDark">#9d4adf</color>
+    <color name="colorAccent">#c1f2f0f1</color>
+    <color name="Button1">#eee5e1e1</color>
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="lightgray">#ededed</color>
+    <color name="yello">#f7b826</color>
+    <color name="green">#00bfa5</color>
+
+    <color name="btnplay1">#f7b826</color>
+    <color name="btnplay">#f7b826</color>
+
+    <color name="btnmic">#f74776</color>
+    <color name="btnmic1">#f74776</color>
+
+
+
+    <!-- Profile -->
+    <color name="graylight">#f2bababa</color>
+    <color name="darkblue">#292b3d</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+
+    <color name="darkGray">#282828</color>
+</resources>

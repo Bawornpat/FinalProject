@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.ssru.afinal.ldlearning.PracticeActivity"
+        android:orientation="vertical"
+        android:background="@color/backgroundcolor"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <!-- Card 1 -->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card1"
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0.5dp"
+                    android:layout_marginBottom="10dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackgroundBorderless">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clipToPadding="false"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:text="บทที่1 : "
+                            android:textSize="20dp"
+                            android:textColor="@color/darkGray"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="ฝึกพยัญชนะ  ก ภ ถ ฎ ฏ "
+                            android:textSize="20dp"
+                            android:textColor="@color/darkGray"
+                            />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- Card 2 -->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card2"
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0.5dp"
+                    android:layout_marginBottom="10dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackgroundBorderless">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clipToPadding="false"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:text="บทที่2 : "
+                            android:textSize="20dp"
+                            android:textColor="@color/darkGray"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="ฝึกพยัญชนะ ข ฃ ช ซ "
+                            android:textSize="20dp"
+                            android:textColor="@color/darkGray"
+                            />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- Card 3 -->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card3"
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0.5dp"
+                    android:layout_marginBottom="10dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackgroundBorderless">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clipToPadding="false"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:text="บทที่3 : "
+                            android:textSize="20dp"
+                            android:textColor="@color/darkGray"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="ฝึกพยัญชนะ ค ด ศ ต ฅ "
+                            android:textSize="20dp"
+                            android:textColor="@color/darkGray"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- Card 4 -->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card4"
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="0.5dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackgroundBorderless">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clipToPadding="false"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:text="บทที่4 : "
+                            android:textSize="20dp"
+                            android:textColor="@color/darkGray"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="ฝึกพยัญชนะ จ ง ฐ ม ฆ "
+                            android:textSize="20dp"
+                            android:textColor="@color/darkGray"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- Card 5 -->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card5"
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0.5dp"
+                    android:layout_marginBottom="10dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackgroundBorderless">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clipToPadding="false"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:text="บทที่5 : "
+                            android:textSize="20dp"
+                            android:textColor="@color/darkGray"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="ฝึกพยัญชนะ ฌ ญ ณ ฒ "
+                            android:textSize="20dp"
+                            android:textColor="@color/darkGray"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- Card 6 -->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card6"
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0.5dp"
+                    android:layout_marginBottom="10dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackgroundBorderless">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clipToPadding="false"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:text="บทที่6 : "
+                            android:textSize="20dp"
+                            android:textColor="@color/darkGray"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="ฝึกพยัญชนะ น ฉ ท ฑ ห "
+                            android:textSize="20dp"
+                            android:textColor="@color/darkGray"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- Card 7 -->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card7"
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0.5dp"
+                    android:layout_marginBottom="10dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackgroundBorderless">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clipToPadding="false"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:text="บทที่7 : "
+                            android:textSize="20dp"
+                            android:textColor="@color/darkGray"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="ฝึกพยัญชนะ ผ ฝ พ ฟ ฬ ย "
+                            android:textSize="20dp"
+                            android:textColor="@color/darkGray"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- Card 8 -->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card8"
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0.5dp"
+                    android:layout_marginBottom="10dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackgroundBorderless">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clipToPadding="false"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:text="บทที่8 : "
+                            android:textSize="20dp"
+                            android:textColor="@color/darkGray"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="ฝึกพยัญชนะ บ ป ษ ร ธ "
+                            android:textSize="20dp"
+                            android:textColor="@color/darkGray"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- Card 9 -->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card9"
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0.5dp"
+                    android:layout_marginBottom="10dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackgroundBorderless">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clipToPadding="false"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:text="บทที่9 : "
+                            android:textSize="20dp"
+                            android:textColor="@color/darkGray"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="ฝึกพยัญชนะ ล ส ว อ ฮ "
+                            android:textSize="20dp"
+                            android:textColor="@color/darkGray"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>

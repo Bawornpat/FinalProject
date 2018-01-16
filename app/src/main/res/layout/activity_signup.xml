@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ssru.afinal.ldlearning.SignupActivity"
+    android:background="@drawable/side_background"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2c686868">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ลงทะเบียน"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="60dp"
+                />
+
+            <EditText
+                android:id="@+id/txt_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:hint="ชื่อผู้ใช้"
+                android:inputType="text"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#fff"
+                android:layout_marginTop="40dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
+            <EditText
+                android:id="@+id/txt_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:hint="รหัสผ่าน"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#fff"
+                android:layout_marginTop="4dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
+            <EditText
+                android:id="@+id/txt_pass_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:hint="ยืนยันรหัสผ่าน"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#fff"
+                android:layout_marginTop="4dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
+
+
+            <Button
+                android:id="@+id/btn_signupok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_login"
+                android:text="ยืนยันการลงทะเบียน"
+                android:textColor="#a14a53"
+                android:padding="16dp"
+                android:clickable="true"
+                android:layout_marginTop="24dp"
+
+                />
+            <Button
+                android:id="@+id/btn_backtologin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_singup"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:text="ย้อนกลับ"
+                android:textColor="#f1f1f1"
+                android:textAllCaps="false"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

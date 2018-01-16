@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ssru.afinal.ldlearning">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Dark">
+
+        <!-- Intro Activity -->
+        <activity android:name=".IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Login Activity -->
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" />
+
+        <!-- Signup Activity -->
+        <activity android:name=".SignupActivity" />
+
+        <!-- ฝึกออกเสียง Activity -->
+        <activity
+            android:name=".ListCharActivity"
+            android:label="แบบฝึก"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- แบบทดสอบ Activity -->
+        <activity
+            android:name=".PracticeActivity"
+            android:label="แบบทดสอบ"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- สถิติ Activity -->
+        <activity
+            android:name=".StatActivity"
+            android:label="สถิติ"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Pract_1Activity"
+            android:label="บทที่1"
+            android:parentActivityName=".PracticeActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PracticeActivity" />
+        </activity>
+        <activity
+            android:name=".Pract_2Activity"
+            android:label="บทที่2"
+            android:parentActivityName=".PracticeActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PracticeActivity" />
+        </activity>
+        <activity
+            android:name=".Pract_3Activity"
+            android:label="บทที่3"
+            android:parentActivityName=".PracticeActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PracticeActivity" />
+        </activity>
+        <activity android:name=".Pract_4Activity"
+            android:label="บทที่4"
+            android:parentActivityName=".PracticeActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PracticeActivity" />
+        </activity>
+        <activity android:name=".Pract_5Activity"
+            android:label="บทที่5"
+            android:parentActivityName=".PracticeActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PracticeActivity" />
+        </activity>
+        <activity android:name=".Pract_6Activity"
+            android:label="บทที่6"
+            android:parentActivityName=".PracticeActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PracticeActivity" />
+        </activity>
+        <activity android:name=".Pract_7Activity"
+            android:label="บทที่7"
+            android:parentActivityName=".PracticeActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PracticeActivity" />
+        </activity>
+        <activity android:name=".Pract_8Activity"
+            android:label="บทที่8"
+            android:parentActivityName=".PracticeActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PracticeActivity" />
+        </activity>
+        <activity android:name=".Pract_9Activity"
+
+            android:label="บทที่9"
+            android:parentActivityName=".PracticeActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PracticeActivity" />
+        </activity>
+    </application>
+
+</manifest>

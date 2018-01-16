@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "345903537742",
+    "firebase_url": "https://ldlearning-135.firebaseio.com",
+    "project_id": "ldlearning-135",
+    "storage_bucket": "ldlearning-135.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345903537742:android:3412d8b1d50255ec",
+        "android_client_info": {
+          "package_name": "com.ssru.afinal.ldlearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345903537742-sugvh5n82fq2tu2hqpr5776irjo643c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOi7tSPVlL-f7ItnKFSEpVgr03hoKOnL8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
