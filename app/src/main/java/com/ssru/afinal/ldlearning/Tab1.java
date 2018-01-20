@@ -54,9 +54,9 @@ public class Tab1 extends Fragment {
 
         View v = inflater.inflate(R.layout.fragment_tab1, container, false);
 
-            Speak = (CardView) v.findViewById(R.id.cardspeak);
-            Practice = (CardView) v.findViewById(R.id.cardpractice);
-            Stat = (CardView) v.findViewById(R.id.cardstat);
+            Speak = (CardView) v.findViewById(R.id.card_one);
+            Practice = (CardView) v.findViewById(R.id.card_two);
+            Stat = (CardView) v.findViewById(R.id.card_three);
 
             Speak.setOnClickListener(new View.OnClickListener() {
                 @Override

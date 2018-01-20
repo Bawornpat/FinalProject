@@ -138,8 +138,8 @@ public class LoginActivity extends AppCompatActivity {
             /*----------------------------------------------------------------------------------------------------------*/
 
             /** Check  **/
-            int i,y;
-            for (i = 0 ,y=0; i < username.size(); i++) {
+            int i;
+            for (i = 0 ; i < username.size(); i++) {
 
                 if (username.get(i).equals(user) == true) {
                     userCheck = true;
