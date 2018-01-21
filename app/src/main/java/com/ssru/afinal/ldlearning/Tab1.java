@@ -75,7 +75,7 @@ public class Tab1 extends Fragment {
         vowel.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent n = new Intent(getActivity(),PracticeActivity.class);
+                    Intent n = new Intent(getActivity(),VowelActivity.class);
                     startActivity(n);
                 }
             });

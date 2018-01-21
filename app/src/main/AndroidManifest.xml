@@ -153,7 +153,16 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".VowelActivity"></activity>
+        <activity
+            android:name=".VowelActivity"
+            android:label="สระไทย"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".ToneActivity"></activity>
     </application>
 
 </manifest>
