@@ -90,7 +90,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".PracticeActivity" />
         </activity>
-        <activity android:name=".Pract_4Activity"
+        <activity
+            android:name=".Pract_4Activity"
             android:label="บทที่4"
             android:parentActivityName=".PracticeActivity"
             android:theme="@style/AppTheme">
@@ -98,7 +99,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".PracticeActivity" />
         </activity>
-        <activity android:name=".Pract_5Activity"
+        <activity
+            android:name=".Pract_5Activity"
             android:label="บทที่5"
             android:parentActivityName=".PracticeActivity"
             android:theme="@style/AppTheme">
@@ -106,7 +108,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".PracticeActivity" />
         </activity>
-        <activity android:name=".Pract_6Activity"
+        <activity
+            android:name=".Pract_6Activity"
             android:label="บทที่6"
             android:parentActivityName=".PracticeActivity"
             android:theme="@style/AppTheme">
@@ -114,7 +117,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".PracticeActivity" />
         </activity>
-        <activity android:name=".Pract_7Activity"
+        <activity
+            android:name=".Pract_7Activity"
             android:label="บทที่7"
             android:parentActivityName=".PracticeActivity"
             android:theme="@style/AppTheme">
@@ -122,7 +126,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".PracticeActivity" />
         </activity>
-        <activity android:name=".Pract_8Activity"
+        <activity
+            android:name=".Pract_8Activity"
             android:label="บทที่8"
             android:parentActivityName=".PracticeActivity"
             android:theme="@style/AppTheme">
@@ -130,8 +135,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".PracticeActivity" />
         </activity>
-        <activity android:name=".Pract_9Activity"
-
+        <activity
+            android:name=".Pract_9Activity"
             android:label="บทที่9"
             android:parentActivityName=".PracticeActivity"
             android:theme="@style/AppTheme">
@@ -139,6 +144,16 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".PracticeActivity" />
         </activity>
+        <activity
+            android:name=".ConsonantActivity"
+            android:label="พยัญชนะไทย"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".VowelActivity"></activity>
     </application>
 
 </manifest>

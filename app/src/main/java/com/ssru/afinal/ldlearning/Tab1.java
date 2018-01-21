@@ -1,5 +1,6 @@
 package com.ssru.afinal.ldlearning;
 
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -22,7 +23,7 @@ public class Tab1 extends Fragment {
     private OnFragmentInteractionListener mListener;
 
     //View
-    private CardView Speak,Practice,Stat;
+    private CardView consonant,vowel,tone;
 
     public Tab1() {
         // Required empty public constructor
@@ -54,19 +55,24 @@ public class Tab1 extends Fragment {
 
         View v = inflater.inflate(R.layout.fragment_tab1, container, false);
 
-            Speak = (CardView) v.findViewById(R.id.card_one);
-            Practice = (CardView) v.findViewById(R.id.card_two);
-            Stat = (CardView) v.findViewById(R.id.card_three);
+        consonant =  v.findViewById(R.id.card_one);
+        vowel =  v.findViewById(R.id.card_two);
+        tone =  v.findViewById(R.id.card_three);
 
-            Speak.setOnClickListener(new View.OnClickListener() {
+
+        consonant.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent i = new Intent(getActivity(),ListCharActivity.class);
+                    Intent i = new Intent(getActivity(),ConsonantActivity.class);
                     startActivity(i);
+
+                   /* Intent i = new Intent(getActivity(),ListCharActivity.class);
+                    startActivity(i);
+                   */
                 }
             });
 
-            Practice.setOnClickListener(new View.OnClickListener() {
+        vowel.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     Intent n = new Intent(getActivity(),PracticeActivity.class);
@@ -74,7 +80,7 @@ public class Tab1 extends Fragment {
                 }
             });
 
-            Stat.setOnClickListener(new View.OnClickListener() {
+        tone.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     Intent z = new Intent(getActivity(),StatActivity.class);

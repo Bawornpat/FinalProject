@@ -117,7 +117,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="สระ"
+                        android:text="สระไทย"
                         android:textSize="20dp"
                         android:textStyle="bold" />
 
@@ -171,7 +171,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="วรรณยุกต์"
+                    android:text="วรรณยุกต์ไทย"
                     android:textSize="20dp"
                     android:textStyle="bold" />
 
