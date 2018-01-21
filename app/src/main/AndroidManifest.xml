@@ -35,22 +35,22 @@
         <activity
             android:name=".ListCharActivity"
             android:label="แบบฝึก"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".ConsonantActivity"
             android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".ConsonantActivity" />
         </activity>
 
         <!-- แบบทดสอบ Activity -->
         <activity
             android:name=".PracticeActivity"
             android:label="แบบทดสอบ"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".ConsonantActivity"
             android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".ConsonantActivity" />
         </activity>
 
         <!-- สถิติ Activity -->
@@ -162,7 +162,16 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".ToneActivity"></activity>
+        <activity
+            android:name=".ToneActivity"
+            android:label="วรรณยุกต์ไทย"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".Con_PracticeActivity"></activity>
     </application>
 
 </manifest>

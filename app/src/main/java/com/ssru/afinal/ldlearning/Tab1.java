@@ -66,9 +66,6 @@ public class Tab1 extends Fragment {
                     Intent i = new Intent(getActivity(),ConsonantActivity.class);
                     startActivity(i);
 
-                   /* Intent i = new Intent(getActivity(),ListCharActivity.class);
-                    startActivity(i);
-                   */
                 }
             });
 
@@ -83,7 +80,7 @@ public class Tab1 extends Fragment {
         tone.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent z = new Intent(getActivity(),StatActivity.class);
+                    Intent z = new Intent(getActivity(),ToneActivity.class);
                     startActivity(z);
                 }
             });
